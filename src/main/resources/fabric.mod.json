@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.floppa.bliffer.ExampleMod"
+			"com.floppa.bliffer.BlifferMod"
 		],
 		"fabric-datagen": [
-			"com.floppa.bliffer.ExampleModDataGenerator"
+			"com.floppa.bliffer.BlifferModDataGenerator"
 		]
 	},
 	"mixins": [
