@@ -3,7 +3,7 @@
 	"id": "bliffer-java",
 	"version": "${version}",
 	"name": "Bliffer",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A modern type of the sniffer on Java!",
 	"authors": [
 		"FloppaG"
 	],
@@ -11,7 +11,7 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/bliffer-java/icon.png",
 	"environment": "*",
 	"entrypoints": {
