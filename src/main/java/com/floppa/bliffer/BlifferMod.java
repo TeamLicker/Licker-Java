@@ -18,6 +18,6 @@ public class BlifferMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Loaded Bliffer Java");
+		LOGGER.info("Starting Bliffer Java");
 	}
 }
