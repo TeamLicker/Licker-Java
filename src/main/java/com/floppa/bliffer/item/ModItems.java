@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item BLIFF_SEED = registerItem("bliff_seed", new Item(new FabricItemSettings().food(ModFoodComponents.BLIFF_SEED)));
+    public static final Item BLIFF_SEED = registerItem("bliffer_seed", new Item(new FabricItemSettings().food(ModFoodComponents.BLIFF_SEED)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(BLIFF_SEED);
