@@ -1,5 +1,7 @@
 package com.floppa.bliffer;
 
+import com.floppa.bliffer.item.ModItemGroups;
+import com.floppa.bliffer.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -14,10 +16,8 @@ public class BlifferMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
+		ModItemGroups.registerItemGroups();
 
-		LOGGER.info("Loaded Bliffer Java");
+		ModItems.registerModItems();
 	}
 }
