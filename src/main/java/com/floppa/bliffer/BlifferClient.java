@@ -8,7 +8,7 @@ import net.fabricmc.api.Environment;
 public class BlifferClient implements ClientModInitializer {
     // Stores users who have capes
     public static final String[][] capes = new String[][]{
-            new String[]{"FloppaGodJava", "floppa"},
+            new String[]{"FloppaGodJava", "cape"},
     };
 
     public void onInitializeClient() {

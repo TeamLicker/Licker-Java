@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup BLIFFER_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(BlifferMod.MOD_ID, "bliffer_seed"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.bliffer"))
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.bliffer-java.bliffer"))
                     .icon(() -> new ItemStack(ModItems.BLIFF_SEED)).entries((displayContext, entries) -> {
                         entries.add(ModItems.BLIFF_SEED);
 
