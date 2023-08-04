@@ -1,7 +1,9 @@
 # Bliffer
 
-![Discord](https://img.shields.io/badge/Support_%26_Updates-How_you_see_dis?logo=discord&logoColor=%23ffffff&label=Discord&link=https%3A%2F%2Fdiscord.gg%2FzRCt3m7waU) ![experimental](http://badges.github.io/stability-badges/dist/experimental.svg) 
+![Stability](https://img.shields.io/badge/Stability-Experimental-%23ff0000?labelColor=%23009900&link=https%3A%2F%2Fdiscord.gg%2FzRCt3m7waU
+) ![MC Version](https://img.shields.io/badge/MC_Version-1_20_1-%23009900?logo=minecraft) ![Discord](https://img.shields.io/badge/Discord-Support_%26_Updates-%23009900?logo=discord&logoColor=%23ffffff&labelColor=blue&link=https%3A%2F%2Fdiscord.gg%2FzRCt3m7waU
+)
 
- Warning this mod is in beta
+> **Warning**: still in development
 
 A fabric mod that adds a more modern type of sniffer
