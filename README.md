@@ -7,3 +7,7 @@
 > **Warning**: still in development
 
 A fabric mod that adds a more modern type of sniffer
+
+<a href="https://github.com/FloppaG/Bliffer-Java/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=FloppaG/Bliffer-Java" />
+</a>
