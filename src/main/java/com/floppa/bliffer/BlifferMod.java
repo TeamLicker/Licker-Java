@@ -4,6 +4,7 @@ import com.floppa.bliffer.item.ModItemGroups;
 import com.floppa.bliffer.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,7 +18,7 @@ public class BlifferMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
-
 		ModItems.registerModItems();
+		FuelRegistry.INSTANCE.add(ModItems.BLIFF_SEED, 400);
 	}
 }
